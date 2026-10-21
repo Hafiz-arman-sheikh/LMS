@@ -56,6 +56,19 @@ LMS/
 └── teacher.js
 ```
 
+## Run locally
+
+```bash
+git clone https://github.com/Hafiz-arman-sheikh/LMS.git
+cd LMS
+```
+
+Open `index.html` in a browser, or use VS Code Live Server. No package installation or build command is required.
+
+## Demo data and authentication
+
+Student records in `app.js` are held in the `allStudents` array and reset when the page reloads. The shared `validation()` function in `global.js` checks form inputs in the browser; input validation alone does not authenticate an account. Treat this as a learning demo and use sample data.
+
 ## 💡 What I Practiced
 
 While building this project, I practiced:
